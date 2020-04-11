@@ -1,0 +1,181 @@
+<div class="header-top-bg">
+    <a class="header-logo-mb" href='#!'></a>
+    <div class="header-top _container">
+        <div class="header-top-catalog-icon-mb" id="catalogIconMb">
+            <i class="catalog-icon-mb"></i>
+        </div>
+        <div class="header-top-logo-wr">
+            <a class="header-logo-link " href="#!">
+                <img alt="" class="header-logo__img" src="./img/header/header-top/logo.png">
+
+            </a>
+            <span class="header-logo__motto">Мы работаем на ваш талант!</span>
+        </div>
+
+        <div class="header-top-city">
+            <div class="header-city__selected city-activ" id="selectedCity">Екатеринбург</div>
+            <div class="select-win _dn" id="selectionCityWin">
+                <div class="select-botton__close _bottom-close _win-close" id="cityClose"></div>
+                <span class="select-win__text">Выберите город</span>
+                <ul class="select-city-list">
+                    <li class="header-select-city select-city" data-city="moscow">Москва</li>
+                    <li class="header-select-city select-city" data-city="saintPetersburg">Санкт-Петербург</li>
+                    <li class="header-select-city select-city _selected-city" data-city="ekateriburg">Екатеринбург</li>
+                    <li class="header-select-city select-city" data-city="sochi">Сочи</li>
+                    <li class="header-select-city select-city" data-city="kazan">Казань</li>
+                    <li class="header-select-city select-city" data-city="rostov">Ростов-на-Дону</li>
+                    <li class="header-select-city select-city" data-city="vladivostok">Владивосток</li>
+                </ul>
+            </div>
+        </div>
+
+        <form class="header-top-search" id="searchForm" name="search-form">
+            <input class="header-search__input _input-text"
+                   data-random="Акустическая гитара;Armory Mapex AR529SS BTK;Пианино;Yamaha PSR-S775;Pioneer"
+                   data-type='search' id="searchInput" placeholder="" type="text">
+
+            <input class="header-search__sumbit _search-sumbit" id="inputSumbit" type="submit" value="">
+
+            <div class="header-search__clear _input-clear _dn" id="inputClear"></div>
+        </form>
+
+        <div class="header-top-menu">
+            <div class="menu-user-mb">
+                <div class="menu-user-item__mb search-icon-mb" id="searchIconMb"></div>
+                <a class="menu-user-item__mb account-icon-mb" href="#!"></a>
+            </div>
+
+            <div class="menu-user">
+                <div class="menu-user-item _menu-icon">
+                    <a class="menu-user-item-link" href="#!">
+                        <i class="user-item__icon _icon-account"></i>
+                    </a>
+                    <div class="menu-user-item-win _window _dn">
+                        <div class="win-botton-close _bottom-close _win-close"></div>
+                        <div class="win-inner">
+
+                            <div class="win-login-reg-btn">
+                                <div class="win-login-reg__item _button _win-button" data-tab="login">
+                                    Вход
+                                </div>
+
+                                <div class="win-login-reg__item _button _win-button" data-tab="registration">
+                                    Регистрация
+                                </div>
+                            </div>
+                            <div class="win-inner-section">
+                                <a class='win-inner__link' href="#!">Статус заказа</a>
+                            </div>
+
+                            <div class="win-inner-section">
+                                <a class='win-inner__link' href="#!">Избранное</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-user-item _menu-icon">
+                    <a class="menu-user-item-link" href="#!">
+                        <div class="count__product _dn" id="countFavourites">0</div>
+                        <i class="user-item__icon _icon-liked"></i>
+                    </a>
+                    <div class="menu-user-item-win _window _dn">
+                        <div class="win-botton-close _bottom-close _win-close"></div>
+                        <div class="win-inner">
+                            <h3 class='win-inner__title'>Избранное</h3>
+                            <p class="win-disc">
+                                <a class="win-disc-login-link" href="#!">Войдите</a>, что бы увидить уже добавленные
+                                товары в своем акаутне или перейтите в коталог товаров.
+                            </p>
+
+                            <a class="win-disc-catalog-link _button" href="#!">
+                                Перейти в каталог товаров
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-user-item _menu-icon">
+                    <a class="menu-user-item-link" href="#!">
+                        <div class="count__product _dn"></div>
+                        <i class="user-item__icon _icon-scanned"></i>
+                    </a>
+
+                    <div class="menu-user-item-win _window  _dn">
+                        <div class="win-botton-close _bottom-close _win-close"></div>
+                        <div class="win-inner">
+                            <h3 class='win-inner__title'>Просмотренное</h3>
+                            <p class="win-disc">
+                                У вас пока нет просмотренный товаров, но вы можете просмотреть товары в наше катологе.
+                            </p>
+
+                            <a class="win-disc-catalog-link _button" href="#!">
+                                Перейти в каталог товаров
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- header-top-user -->
+
+            <div class="menu-cart" id="distopCart">
+                <a class="menu-cart__link" href="#!">
+                    <div class="count__product _cart-count _dn"></div>
+                    <div class="menu-cart-info" id="cartInfo">
+                        <span class="menu-cart__massage" id="cartMassage">Ваша карзина пустая</span>
+                        <br>
+                        <span class="menu-cart__total-price" id="cartTotalPrice"></span>
+                        <i class="menu-cart__icon" id="cartIcon"></i>
+                    </div>
+                </a>
+            </div>
+
+            <div class="menu-cart-mb">
+                <a class="menu-cart__link-mb" href="#!">
+                    <div class="count__product  _cart-count _cart-count-mb _dn"></div>
+                    <i class="menu-cart__icon-mb"></i>
+                </a>
+            </div>
+        </div><!-- header-top-menu -->
+    </div><!-- header-top-content -->
+    <!-- header-top-nav-mb start-->
+    <div class="header-top-nav-mb">
+        <!-- nav-mb-line start-->
+        <div class="nav-mb-line">
+            <div class="nav-mb-item">
+                <a class="nav-mb-item__link" href="#!">
+					<span class="nav-mb-item-name">Гитары
+					<i class="nav-mb-item__icon _guitar-icon-mb"></i></span>
+                </a>
+            </div>
+            <div class="nav-mb-item">
+                <a class="nav-mb-item__link" href="#!"><span class="nav-mb-item-name">Клавишные
+					<i class="nav-mb-item__icon _keyboard-icon-mb"></i></span>
+                </a>
+            </div>
+        </div><!-- nav-mb-line end-->
+
+        <!-- nav-mb-line start-->
+        <div class="nav-mb-line">
+            <div class="nav-mb-item">
+                <a class="nav-mb-item__link" href="#!">
+					<span class="nav-mb-item-name">Духовые
+					<i class="nav-mb-item__icon _brass-icon-mb"></i></span>
+                </a>
+            </div>
+            <div class="nav-mb-item">
+                <a class="nav-mb-item__link" href="#!"><span class="nav-mb-item-name">барабаны
+					<i class="nav-mb-item__icon _drum-icon-mb"></i></span>
+                </a>
+            </div>
+        </div><!-- nav-mb-line end-->
+
+        <div class="nav-mb-line">
+            <div class="nav-mb-item">
+                <a class="nav-mb-item__link" href="#!">
+					<span class="nav-mb-item-name">Все катeгории
+					<i class="nav-mb-item__icon _all-icon-mb"></i></span>
+                </a>
+            </div>
+        </div><!-- nav-mb-line end-->
+    </div><!-- header-top-nav-mb end-->
+</div>

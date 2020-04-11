@@ -1,0 +1,154 @@
+<div class="dark-screen _dn" id="darkScreen">
+    <!-- logReg START -->
+    <div class="log-reg _modal-win _dn" id="logReg">
+        <div class="log-reg-close close-fixsed _bottom-close"></div>
+        <div class="log-reg-nav">
+            <div class="log-reg-nav-tab" data-tab="login">Вход</div>
+            <div class="log-reg-nav-tab" data-tab="registration">Регистрация</div>
+        </div>
+        <div class="log-reg-inner">
+            <!-- login-form START -->
+            <form action="" class="log-reg-form login-form form _dn" id="login">
+                <label class="log-reg-label label-input">
+					<span class="input-wr">
+					<input class="log-reg-label__input _input-text" data-type="user-name"
+                           placeholder="Адрес электронной почты" type="text">
+					</span>
+                    <span class="log-reg-label__error empty _dn ">Это поле необходимо заполнить!</span>
+                    <span class="log-reg-label__error error _dn">Неверный e-mail или пороль!</span>
+                </label>
+
+                <label class="log-reg-label label-input">
+					<span class="input-wr">
+					<input class="log-reg-label__input _input-text " id="user-password" placeholder="Пороль"
+                           type="password">
+					</span>
+                    <span class="log-reg-label__error empty _dn ">Это поле необходимо заполнить!</span>
+                </label>
+
+                <br/>
+                <input class="log-reg-form__submit _button" type="submit" value="Войти"><a class="forget-password"
+                                                                                           href="№!">Забыли пороль?</a>
+            </form><!-- login-form END -->
+
+            <!-- reg-form START-->
+            <form action="" class="log-reg-form reg-form form _dn" id="registration">
+                <label class="log-reg-label label-input">
+					<span class="input-wr">
+					<input class="log-reg-label__input _input-text" data-type="name" placeholder="Имя" type="text">
+					</span>
+                    <span class="log-reg-label__error empty _dn">Это поле необходимо заполнить!</span>
+                </label>
+
+                <label class="log-reg-label label-input">
+					<span class="input-wr">
+					<input class="log-reg-label__input _input-text" data-type="email"
+                           placeholder="Адрес электронной почты" type="text">
+					</span>
+                    <span class="log-reg-label__error empty _dn ">Это поле необходимо заполнить!</span>
+                    <span class="log-reg-label__error error _dn">Введите правильный Email!</span>
+                </label>
+
+                <div class="reg-check-wr">
+                    <p class="reg__need-consent need-consent _dn">Необходимо подтвердить ваше согласие!</p>
+                    <input checked class="reg-check__consent check-consent _check_dn" data-type="checkbox"
+                           id="termSubscriptionCheckbox" type="checkbox">
+                    <label class="reg-check__label check-label _check-active " for="termSubscriptionCheckbox">
+                        Я согласен с <a class="check-label__link" href="#!">условиями подпиcки.</a>
+                    </label>
+                </div>
+
+                <label class="log-reg-label label-input">
+					<span class="input-wr">
+					<input class="log-reg-label__input _input-text" data-type="password" placeholder="Пороль"
+                           type="password">
+					</span>
+                    <span class="log-reg-label__error empty _dn ">Это поле необходимо заполнить!</span>
+                    <span class="log-reg-label__error error _dn">Пороль несовподает!</span>
+                </label>
+
+                <label class="log-reg-label label-input">
+					<span class="input-wr">
+					<input class="log-reg-label__input _input-text" id='repeat-password' placeholder="Повторите пороль"
+                           type="password">
+					</span>
+                    <span class="log-reg-label__error empty _dn ">Это поле необходимо заполнить!</span>
+                    <!-- <p class="log-reg-label__error error _dn">Введите правильный Email!</p> -->
+                </label>
+
+                <div class="reg-check-wr">
+                    <p class="reg__need-consent need-consent _dn">Необходимо подтвердить ваше согласие!</p>
+                    <input checked class="reg-check__consent _check_dn check-consent " data-type="checkbox"
+                           id="agreementСheckbox" type="checkbox">
+                    <label class="reg-check__label check-label _check-active " for="agreementСheckbox">
+                        Я согласен на обработку <a class="check-label__link" href="#!">персональных данных</a>.
+                    </label>
+                </div>
+                <input class="log-reg-form__submit _reg-submit _button" type="submit" value="Регистрация">
+            </form><!-- reg-form END-->
+
+
+            <!-- log-reg-social START -->
+            <div class="log-reg-social">
+                <span class="log-reg-social__disc">Войти через соц. сеть</span>
+                <div class="log-reg-social-list">
+                    <a class="log-reg-social-item" href="#!">
+                        <i class="log-reg-social-icon _google-icon"></i>
+                    </a>
+                    <a class="log-reg-social-item" href="#!">
+                        <i class="log-reg-social-icon _facebook-icon"></i>
+                    </a>
+                    <a class="log-reg-social-item" href="#!">
+                        <i class="log-reg-social-icon _vk-icon"></i>
+                    </a>
+                    <a class="log-reg-social-item" href="#!">
+                        <i class="log-reg-social-icon _yandex-icon"></i>
+                    </a>
+                    <a class="log-reg-social-item" href="#!">
+                        <i class="log-reg-social-icon _ok-icon"></i>
+                    </a>
+                </div>
+            </div><!-- log-reg-social END -->
+
+        </div>
+    </div><!-- logReg END -->
+    <!-- callback START-->
+    <div class="callback _modal-win _dn">
+        <div class="callback-close close-fixsed _bottom-close"></div>
+        <h3 class="callback_title">
+            Обратный звонок
+        </h3>
+        <p class="callback_disc">
+            Закажите обратный звонок, и мы вам перезвоним!
+        </p>
+
+        <form action="" class="callback-form  form" id="callback">
+            <div class="callback-labal-wr">
+                <label class="callback-label label-input">
+					<span class="input-wr">
+					<input class="callback-label__input _input-text" placeholder="Ваше имя" type="text">
+					</span>
+                </label>
+
+                <label class="callback-label label-input">
+					<span class="input-wr">
+					<input class="callback-label__input _input-text" data-type="phone" placeholder="Ваш номер телефона"
+                           type="text">
+					</span>
+                    <span class="callback-label__error empty _dn ">Это поле необходимо заполнить!</span>
+                    <span class="callback-label__error error _dn">Неверно набран номер</span>
+                </label>
+
+                <label class="callback-label label-input">
+					<span class="input-wr">
+					<input class="callback-label__input _input-text" placeholder="Укажите удобное время для звонка"
+                           type="text">
+					</span>
+                </label>
+            </div>
+            <br/>
+            <input class="callback-reg-form__submit _button" type="submit" value="Заказать обратный звонок">
+        </form><!-- login-form END -->
+    </div><!-- callback END-->
+</div>
+

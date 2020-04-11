@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Музыкалный Арсенал</title>
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Fonds
+    ============================== -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <!-- Styles
+    =============================== -->
+    <link href="./libs/OwlCarousel2/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
+
+    <link href="./libs/OwlCarousel2/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+
+    <link href="./css/main.min.css" rel="stylesheet">
+
+    <link href="favicon.png" rel="shortcut icon">
+</head>
+<body>
+<header class="header">
+    @@include("blocks/header/header-top.html")
+    @@include("blocks/header/header-nav.html")
+    @@include("blocks/header/header-front.html")
+</header>
+
+<div class="_container">
+    @@include("blocks/storefront.html")
+    @@include("blocks/service.html")
+</div>
+<footer class="footer">
+    @@include("blocks/footer/footer-top.html")
+    @@include("blocks/footer/footer-bottom.html")
+</footer>
+@@include("blocks/modal-windows.html")
+
+<!-- mb Start-->
+@@include("blocks/mb.html")
+<!-- mb Start-->
+
+
+<!-- java script
+=================================== -->
+<script src="./libs/jquery/jquery-3.4.1.min.js"></script>
+<script src="./libs/OwlCarousel2/owl.carousel.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
